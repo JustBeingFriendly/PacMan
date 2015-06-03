@@ -68,7 +68,7 @@ void Pacman::setPosition(int row, int column)
 
 Pacman::Pacman()
 {
-	frame = 0;
+	frame = 0; //Changed to make project work
 	if (!texture.loadFromFile("assets/pacman.png"))
 	{
 		std::cout << "Error loading resource pacman.png" << std::endl;
